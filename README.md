@@ -79,7 +79,7 @@ Ou clique em: `classificar.bat`
 - Coluna B: Resumo dos comentários positivos
 - Coluna C: Resumo dos comentários negativos
 
-## 💰 Estimativa de Custos
+## 💰 Scripts e modelos
 
 ### Script 1 - Análise de Comentários:
 - **Modelo:** GPT-4-Turbo (alta qualidade)
@@ -145,5 +145,6 @@ O script mostra em tempo real:
 Em caso de dúvidas ou problemas, verifique:
 - Documentação da OpenAI: https://platform.openai.com/docs
 - Documentação do openpyxl: https://openpyxl.readthedocs.io/
+
 
 
