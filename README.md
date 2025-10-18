@@ -83,20 +83,9 @@ Ou clique em: `classificar.bat`
 
 ### Script 1 - Análise de Comentários:
 - **Modelo:** GPT-4-Turbo (alta qualidade)
-- **Requisições:** 50 (uma por produto)
-- **Custo estimado:** $0.50 - $2.00 USD
-- **Tempo estimado:** 2-5 minutos
 
 ### Script 2 - Classificação em Categorias:
-- **Modelo:** GPT-5 (mais recente e econômico) ⭐
-- **Requisições:** 2500 (uma por comentário - 50 produtos × 50 comentários)
-- **Custo estimado:** $0.20 - $0.60 USD (muito mais barato!)
-- **Tempo estimado:** 5-8 minutos (muito mais rápido!)
-
-**Notas Importantes:**
-- GPT-5 não aceita parâmetro `temperature` customizado (usa padrão = 1)
-- Você pode alterar os modelos editando a variável `MODELO_OPENAI` em cada script
-- Consulte `CORRECAO_TEMPERATURA_GPT5.txt` para detalhes técnicos
+- **Modelo:** GPT-5-nano (mais recente e econômico) ⭐
 
 ## 🔧 Estrutura do Projeto
 
@@ -113,10 +102,7 @@ Analise de Comentarios Grupo NC/
 ├── classificar_comentarios.py             # Script 2: Classificação em Categorias
 ├── classificar.bat                        # Atalho para Script 2
 │
-├── verificar_instalacao.py                # Verificar configuração
 ├── README.md                              # Documentação completa
-├── COMECE_AQUI.txt                        # Guia rápido
-├── INSTRUCOES_CLASSIFICACAO.txt           # Instruções do Script 2
 └── Teste Avaliação de Comentários.xlsx    # Arquivo Excel
 ```
 
@@ -144,6 +130,9 @@ O script mostra em tempo real:
 - Progresso da análise (Produto 15/50...)
 - Resumos gerados para cada produto
 - Status de conclusão
+  
+<img width="566" height="342" alt="image" src="https://github.com/user-attachments/assets/35fe959f-2727-46b6-91d8-178ea37222bc" />
+
 
 ## 🎯 Próximos Passos
 
@@ -156,4 +145,5 @@ O script mostra em tempo real:
 Em caso de dúvidas ou problemas, verifique:
 - Documentação da OpenAI: https://platform.openai.com/docs
 - Documentação do openpyxl: https://openpyxl.readthedocs.io/
+
 
