@@ -1,4 +1,4 @@
-# 📊 Análise de Comentários de Produtos - Grupo NC
+# 📊 Análise de Comentários de Produtos
 
 Sistema automatizado para análise de comentários de produtos usando OpenAI GPT-4-Turbo.
 
@@ -145,6 +145,7 @@ O script mostra em tempo real:
 Em caso de dúvidas ou problemas, verifique:
 - Documentação da OpenAI: https://platform.openai.com/docs
 - Documentação do openpyxl: https://openpyxl.readthedocs.io/
+
 
 
 
